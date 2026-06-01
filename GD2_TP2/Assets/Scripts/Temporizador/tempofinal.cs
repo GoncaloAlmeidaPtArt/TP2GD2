@@ -3,15 +3,16 @@ using TMPro;
 using UnityEngine;
 using UnityEngine.UI;
 using UnityEngine.SceneManagement;
+using Unity.VisualScripting;
 
 public class tempofinal : MonoBehaviour
 {
 
     [SerializeField] TextMeshProUGUI timerText;
-    [SerializeField]
-    private string _sceneName;
+    [SerializeField] private string _sceneName;
 
     [SerializeField] float tempo = 30f;
+    [SerializeField] float addedTime = 10f;
 
     void Update()
     {
@@ -27,6 +28,11 @@ public class tempofinal : MonoBehaviour
                 
             timerText.text = Convert.ToString(tempo);
         }
+    }
+
+    public void addTime()
+    {
+        tempo += addedTime;
     }
 
     void MataGato()
