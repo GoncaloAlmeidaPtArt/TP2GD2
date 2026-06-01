@@ -15249,7 +15249,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: '::'
   timerText: {fileID: 1757705112}
-  tempo: 100
+  _sceneName: MoinhoLVL
+  tempo: 30
 --- !u!1 &1384591421
 GameObject:
   m_ObjectHideFlags: 0
@@ -15551,8 +15552,8 @@ Tilemap:
   - first: {x: 146, y: 15, z: 0}
     second:
       serializedVersion: 2
-      m_TileIndex: 242
-      m_TileSpriteIndex: 238
+      m_TileIndex: 230
+      m_TileSpriteIndex: 229
       m_TileMatrixIndex: 1
       m_TileColorIndex: 0
       m_TileObjectToInstantiateIndex: 65535
@@ -15561,8 +15562,8 @@ Tilemap:
   - first: {x: 147, y: 15, z: 0}
     second:
       serializedVersion: 2
-      m_TileIndex: 240
-      m_TileSpriteIndex: 240
+      m_TileIndex: 229
+      m_TileSpriteIndex: 230
       m_TileMatrixIndex: 1
       m_TileColorIndex: 0
       m_TileObjectToInstantiateIndex: 65535
@@ -15611,8 +15612,8 @@ Tilemap:
   - first: {x: 146, y: 16, z: 0}
     second:
       serializedVersion: 2
-      m_TileIndex: 239
-      m_TileSpriteIndex: 239
+      m_TileIndex: 228
+      m_TileSpriteIndex: 228
       m_TileMatrixIndex: 1
       m_TileColorIndex: 0
       m_TileObjectToInstantiateIndex: 65535
@@ -15621,8 +15622,8 @@ Tilemap:
   - first: {x: 147, y: 16, z: 0}
     second:
       serializedVersion: 2
-      m_TileIndex: 238
-      m_TileSpriteIndex: 241
+      m_TileIndex: 227
+      m_TileSpriteIndex: 227
       m_TileMatrixIndex: 1
       m_TileColorIndex: 0
       m_TileObjectToInstantiateIndex: 65535
@@ -16281,8 +16282,8 @@ Tilemap:
   - first: {x: 151, y: 35, z: 0}
     second:
       serializedVersion: 2
-      m_TileIndex: 230
-      m_TileSpriteIndex: 229
+      m_TileIndex: 242
+      m_TileSpriteIndex: 238
       m_TileMatrixIndex: 1
       m_TileColorIndex: 0
       m_TileObjectToInstantiateIndex: 65535
@@ -16291,8 +16292,8 @@ Tilemap:
   - first: {x: 152, y: 35, z: 0}
     second:
       serializedVersion: 2
-      m_TileIndex: 229
-      m_TileSpriteIndex: 230
+      m_TileIndex: 240
+      m_TileSpriteIndex: 240
       m_TileMatrixIndex: 1
       m_TileColorIndex: 0
       m_TileObjectToInstantiateIndex: 65535
@@ -16321,8 +16322,8 @@ Tilemap:
   - first: {x: 151, y: 36, z: 0}
     second:
       serializedVersion: 2
-      m_TileIndex: 228
-      m_TileSpriteIndex: 228
+      m_TileIndex: 239
+      m_TileSpriteIndex: 239
       m_TileMatrixIndex: 1
       m_TileColorIndex: 0
       m_TileObjectToInstantiateIndex: 65535
@@ -16331,8 +16332,8 @@ Tilemap:
   - first: {x: 152, y: 36, z: 0}
     second:
       serializedVersion: 2
-      m_TileIndex: 227
-      m_TileSpriteIndex: 227
+      m_TileIndex: 238
+      m_TileSpriteIndex: 241
       m_TileMatrixIndex: 1
       m_TileColorIndex: 0
       m_TileObjectToInstantiateIndex: 65535
