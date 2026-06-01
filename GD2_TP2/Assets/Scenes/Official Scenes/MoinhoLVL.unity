@@ -15231,6 +15231,116 @@ Transform:
   - {fileID: 1449960005}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1001 &1331670231
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 3212306449907249726, guid: 39dded1596226a04bbbaeb73b3c731eb, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 2625.5007
+      objectReference: {fileID: 0}
+    - target: {fileID: 3212306449907249726, guid: 39dded1596226a04bbbaeb73b3c731eb, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 128.11
+      objectReference: {fileID: 0}
+    - target: {fileID: 3212306449907249726, guid: 39dded1596226a04bbbaeb73b3c731eb, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3212306449907249726, guid: 39dded1596226a04bbbaeb73b3c731eb, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3212306449907249726, guid: 39dded1596226a04bbbaeb73b3c731eb, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3212306449907249726, guid: 39dded1596226a04bbbaeb73b3c731eb, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3212306449907249726, guid: 39dded1596226a04bbbaeb73b3c731eb, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3212306449907249726, guid: 39dded1596226a04bbbaeb73b3c731eb, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3212306449907249726, guid: 39dded1596226a04bbbaeb73b3c731eb, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3212306449907249726, guid: 39dded1596226a04bbbaeb73b3c731eb, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3326127352574569167, guid: 39dded1596226a04bbbaeb73b3c731eb, type: 3}
+      propertyPath: _explanation
+      value: "When a collision with a trigger with tags [Player] starts:\n         
+        destroys objects with tags [Player] \n then, at 1 seconds, \n          switches
+        to scene splash_screen_gameLogo\n"
+      objectReference: {fileID: 0}
+    - target: {fileID: 3326127352574569167, guid: 39dded1596226a04bbbaeb73b3c731eb, type: 3}
+      propertyPath: actions.Array.size
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 3326127352574569167, guid: 39dded1596226a04bbbaeb73b3c731eb, type: 3}
+      propertyPath: actions.Array.data[1].delay
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3326127352574569167, guid: 39dded1596226a04bbbaeb73b3c731eb, type: 3}
+      propertyPath: actions.Array.data[0].action
+      value: 
+      objectReference: {fileID: 1331670233}
+    - target: {fileID: 3326127352574569167, guid: 39dded1596226a04bbbaeb73b3c731eb, type: 3}
+      propertyPath: actions.Array.data[1].action
+      value: 
+      objectReference: {fileID: 1331670232}
+    - target: {fileID: 4681618858591253119, guid: 39dded1596226a04bbbaeb73b3c731eb, type: 3}
+      propertyPath: m_Name
+      value: Exit
+      objectReference: {fileID: 0}
+    - target: {fileID: 7043272412361900574, guid: 39dded1596226a04bbbaeb73b3c731eb, type: 3}
+      propertyPath: sceneName
+      value: MenuInicial
+      objectReference: {fileID: 0}
+    - target: {fileID: 7043272412361900574, guid: 39dded1596226a04bbbaeb73b3c731eb, type: 3}
+      propertyPath: _explanation
+      value: Switches to scene MenuInicial
+      objectReference: {fileID: 0}
+    m_RemovedComponents:
+    - {fileID: 2062687526034791379, guid: 39dded1596226a04bbbaeb73b3c731eb, type: 3}
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 39dded1596226a04bbbaeb73b3c731eb, type: 3}
+--- !u!114 &1331670232 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 7043272412361900574, guid: 39dded1596226a04bbbaeb73b3c731eb, type: 3}
+  m_PrefabInstance: {fileID: 1331670231}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5b12253cfd341aa46a3a6fcba7709af0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: OkapiKit::OkapiKit.ActionChangeScene
+--- !u!114 &1331670233 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 1388998762508833019, guid: 39dded1596226a04bbbaeb73b3c731eb, type: 3}
+  m_PrefabInstance: {fileID: 1331670231}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5e75877c0562c0e49a1475541c319262, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: OkapiKit::OkapiKit.ActionDestroyObject
 --- !u!1 &1378518351
 GameObject:
   m_ObjectHideFlags: 0
@@ -16029,7 +16139,7 @@ Tilemap:
     second:
       serializedVersion: 2
       m_TileIndex: 233
-      m_TileSpriteIndex: 233
+      m_TileSpriteIndex: 241
       m_TileMatrixIndex: 1
       m_TileColorIndex: 0
       m_TileObjectToInstantiateIndex: 65535
@@ -16039,7 +16149,7 @@ Tilemap:
     second:
       serializedVersion: 2
       m_TileIndex: 232
-      m_TileSpriteIndex: 231
+      m_TileSpriteIndex: 240
       m_TileMatrixIndex: 1
       m_TileColorIndex: 0
       m_TileObjectToInstantiateIndex: 65535
@@ -16089,7 +16199,7 @@ Tilemap:
     second:
       serializedVersion: 2
       m_TileIndex: 231
-      m_TileSpriteIndex: 226
+      m_TileSpriteIndex: 239
       m_TileMatrixIndex: 1
       m_TileColorIndex: 0
       m_TileObjectToInstantiateIndex: 65535
@@ -16099,7 +16209,7 @@ Tilemap:
     second:
       serializedVersion: 2
       m_TileIndex: 226
-      m_TileSpriteIndex: 232
+      m_TileSpriteIndex: 238
       m_TileMatrixIndex: 1
       m_TileColorIndex: 0
       m_TileObjectToInstantiateIndex: 65535
@@ -17156,8 +17266,6 @@ Tilemap:
     m_Data: {fileID: 0}
   - m_RefCount: 0
     m_Data: {fileID: 0}
-  - m_RefCount: 1
-    m_Data: {fileID: 1058541418, guid: b210dd6dd7ca26249b133039a950699f, type: 3}
   - m_RefCount: 0
     m_Data: {fileID: 0}
   - m_RefCount: 0
@@ -17166,12 +17274,14 @@ Tilemap:
     m_Data: {fileID: 0}
   - m_RefCount: 0
     m_Data: {fileID: 0}
-  - m_RefCount: 1
-    m_Data: {fileID: -1497769420, guid: b210dd6dd7ca26249b133039a950699f, type: 3}
-  - m_RefCount: 1
-    m_Data: {fileID: 957093818, guid: b210dd6dd7ca26249b133039a950699f, type: 3}
-  - m_RefCount: 1
-    m_Data: {fileID: -1998532655, guid: b210dd6dd7ca26249b133039a950699f, type: 3}
+  - m_RefCount: 0
+    m_Data: {fileID: 0}
+  - m_RefCount: 0
+    m_Data: {fileID: 0}
+  - m_RefCount: 0
+    m_Data: {fileID: 0}
+  - m_RefCount: 0
+    m_Data: {fileID: 0}
   - m_RefCount: 2
     m_Data: {fileID: -526326092, guid: b210dd6dd7ca26249b133039a950699f, type: 3}
   - m_RefCount: 2
@@ -17180,14 +17290,14 @@ Tilemap:
     m_Data: {fileID: -990738829, guid: b210dd6dd7ca26249b133039a950699f, type: 3}
   - m_RefCount: 2
     m_Data: {fileID: 5920662692727311508, guid: b210dd6dd7ca26249b133039a950699f, type: 3}
-  - m_RefCount: 0
-    m_Data: {fileID: 0}
-  - m_RefCount: 0
-    m_Data: {fileID: 0}
-  - m_RefCount: 0
-    m_Data: {fileID: 0}
-  - m_RefCount: 0
-    m_Data: {fileID: 0}
+  - m_RefCount: 1
+    m_Data: {fileID: 957093818, guid: b210dd6dd7ca26249b133039a950699f, type: 3}
+  - m_RefCount: 1
+    m_Data: {fileID: 1058541418, guid: b210dd6dd7ca26249b133039a950699f, type: 3}
+  - m_RefCount: 1
+    m_Data: {fileID: -1497769420, guid: b210dd6dd7ca26249b133039a950699f, type: 3}
+  - m_RefCount: 1
+    m_Data: {fileID: -1998532655, guid: b210dd6dd7ca26249b133039a950699f, type: 3}
   - m_RefCount: 1
     m_Data: {fileID: -294746184, guid: b210dd6dd7ca26249b133039a950699f, type: 3}
   m_TileMatrixArray:
@@ -19427,3 +19537,4 @@ SceneRoots:
   - {fileID: 1722147848}
   - {fileID: 1032370909}
   - {fileID: 503649934}
+  - {fileID: 1331670231}
