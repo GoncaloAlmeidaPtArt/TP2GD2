@@ -275,6 +275,17 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 21f9d63d5a57ec1a49cb09067f981427, type: 3}
+--- !u!114 &554051849 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 8419627893303983318, guid: 54e157492bc1847d5aed63927d37b536, type: 3}
+  m_PrefabInstance: {fileID: 594090452}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5b12253cfd341aa46a3a6fcba7709af0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: OkapiKit::OkapiKit.ActionChangeScene
 --- !u!1001 &594090452
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -283,11 +294,66 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 198954745001828913, guid: 54e157492bc1847d5aed63927d37b536, type: 3}
+      propertyPath: target
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 198954745001828913, guid: 54e157492bc1847d5aed63927d37b536, type: 3}
+      propertyPath: _explanation
+      value: 'Disables component [Undefined]'
+      objectReference: {fileID: 0}
+    - target: {fileID: 201971875372721956, guid: 54e157492bc1847d5aed63927d37b536, type: 3}
+      propertyPath: _explanation
+      value: Plays sound dead at volume 0.05 and at pitch 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 716868327495819274, guid: 54e157492bc1847d5aed63927d37b536, type: 3}
+      propertyPath: _explanation
+      value: "If (IsGrounded(Player)) and when button jump is pressed:\nelse\n         
+        [NULL]\n"
+      objectReference: {fileID: 0}
+    - target: {fileID: 716868327495819274, guid: 54e157492bc1847d5aed63927d37b536, type: 3}
+      propertyPath: actions.Array.size
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 716868327495819274, guid: 54e157492bc1847d5aed63927d37b536, type: 3}
+      propertyPath: elseActions.Array.data[0].action
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 927491107514523717, guid: 54e157492bc1847d5aed63927d37b536, type: 3}
+      propertyPath: _explanation
+      value: "Reset Level\n----------------\nWhen a collision with a trigger with
+        tags [Enemy] starts:\n          Sets the current velocity of Player to a
+        speed of 0 units/sec, in the current direction.\n          disables component
+        Player (OkapiKit.MovementPlatformer)\n          sets animation parameter
+        IsDead of object Player to True\n then, at 1.5 seconds, \n          switches
+        to scene splash_screen_gameLogo\n"
+      objectReference: {fileID: 0}
+    - target: {fileID: 927491107514523717, guid: 54e157492bc1847d5aed63927d37b536, type: 3}
+      propertyPath: actions.Array.size
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 927491107514523717, guid: 54e157492bc1847d5aed63927d37b536, type: 3}
+      propertyPath: actions.Array.data[3].delay
+      value: 1.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 927491107514523717, guid: 54e157492bc1847d5aed63927d37b536, type: 3}
+      propertyPath: actions.Array.data[3].action
+      value: 
+      objectReference: {fileID: 554051849}
     - target: {fileID: 4293349580306153410, guid: 54e157492bc1847d5aed63927d37b536, type: 3}
       propertyPath: _explanation
       value: "If (IsGrounded(Player)) and when axis horizontal is held (this can
-        only happen every 0,2 seconds):\n          plays sound catWalkingOnWood_Small
-        at volume 0,15 and a pitch in the range [0,4,0,7]\n"
+        only happen every 0.2 seconds):\n          plays sound catWalkingOnWood_Small
+        at volume 0.15 and a pitch in the range [0.4,0.7]\n"
+      objectReference: {fileID: 0}
+    - target: {fileID: 5018350370408917105, guid: 54e157492bc1847d5aed63927d37b536, type: 3}
+      propertyPath: _explanation
+      value: Plays sound catLanding at volume 0.2 and at pitch 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5579418092482842763, guid: 54e157492bc1847d5aed63927d37b536, type: 3}
+      propertyPath: _explanation
+      value: 'Plays sound catWalkingOnWood_Small at volume 0.15 and a pitch in the
+        range [0.4,0.7]'
       objectReference: {fileID: 0}
     - target: {fileID: 7654576803386949121, guid: 54e157492bc1847d5aed63927d37b536, type: 3}
       propertyPath: m_LocalPosition.x
@@ -329,11 +395,91 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 8281659739507752528, guid: 54e157492bc1847d5aed63927d37b536, type: 3}
+      propertyPath: target
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 8281659739507752528, guid: 54e157492bc1847d5aed63927d37b536, type: 3}
+      propertyPath: _explanation
+      value: 'Enables component [Undefined]'
+      objectReference: {fileID: 0}
+    - target: {fileID: 8822780962202990349, guid: 54e157492bc1847d5aed63927d37b536, type: 3}
+      propertyPath: _explanation
+      value: 'Platformer controller
+
+        ----------------
+
+        Platformer
+        movement; horizontal speed is 90 units per second.
+
+        Horizontal movement
+        will be controlled by the [Horizontal] axis.
+
+        Ground check is going
+        to use collider GroundCheck, the ground layer mask defines what is considered
+        solid ground.
+
+        When there''s no solid ground below character, the
+        character will start falling after 0.1s, with a gravity scale of 1.5.
+
+        The
+        character''s trajectory can be modified mid-air.
+
+        When in the air,
+        the character''s collider will be Player(Player (UnityEngine.BoxCollider2D)),
+        and on the ground will be Player(Player (UnityEngine.CapsuleCollider2D)).
+
+        The
+        character will jump by holding the [Jump] button.
+
+        The vertical velocity
+        will be 150 units/second while jump is pressed, during a maximum of 0.2 seconds.
+
+        Jump
+        height will be between 10 to 40 units (from 0.14 to 0.34 seconds to top of
+        trajectory).
+
+        This controller also controls some visuals:
+
+        When
+        the player intent is to go left, the horizontal scale of this object will
+        be inverted.
+
+        Some values will be set on animator Player:
+
+        Horizontal
+        velocity will be set to parameter VelocityX.
+
+        Absolute horizontal
+        velocity will be set to parameter AbsVelocityX.
+
+        Vertical velocity
+        will be set to parameter VelocityY.
+
+        Absolute vertical velocity will
+        be set to parameter AbsVelocityY.
+
+        Grounded state will be set to
+        parameter IsGrounded.
+
+'
+      objectReference: {fileID: 0}
     - target: {fileID: 8988164318199248913, guid: 54e157492bc1847d5aed63927d37b536, type: 3}
       propertyPath: m_Name
       value: Player
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    - target: {fileID: 8988164318199248913, guid: 54e157492bc1847d5aed63927d37b536, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
+    m_RemovedComponents:
+    - {fileID: 4293349580306153410, guid: 54e157492bc1847d5aed63927d37b536, type: 3}
+    - {fileID: 5579418092482842763, guid: 54e157492bc1847d5aed63927d37b536, type: 3}
+    - {fileID: 5018350370408917105, guid: 54e157492bc1847d5aed63927d37b536, type: 3}
+    - {fileID: 8281659739507752528, guid: 54e157492bc1847d5aed63927d37b536, type: 3}
+    - {fileID: 198954745001828913, guid: 54e157492bc1847d5aed63927d37b536, type: 3}
+    - {fileID: 716868327495819274, guid: 54e157492bc1847d5aed63927d37b536, type: 3}
+    - {fileID: 201971875372721956, guid: 54e157492bc1847d5aed63927d37b536, type: 3}
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
     m_AddedComponents: []
@@ -14989,6 +15135,10 @@ PrefabInstance:
       value: 700
       objectReference: {fileID: 0}
     - target: {fileID: 3652122491601713025, guid: 8401b6874d85a084295cf5053aa6ed59, type: 3}
+      propertyPath: sprite
+      value: 
+      objectReference: {fileID: 1993025911}
+    - target: {fileID: 3652122491601713025, guid: 8401b6874d85a084295cf5053aa6ed59, type: 3}
       propertyPath: m_Enabled
       value: 1
       objectReference: {fileID: 0}
@@ -14998,7 +15148,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3652122491601713025, guid: 8401b6874d85a084295cf5053aa6ed59, type: 3}
       propertyPath: maxRiseSpeed
-      value: 300
+      value: 100
       objectReference: {fileID: 0}
     - target: {fileID: 3652122491601713025, guid: 8401b6874d85a084295cf5053aa6ed59, type: 3}
       propertyPath: minRiseSpeed
@@ -15007,6 +15157,14 @@ PrefabInstance:
     - target: {fileID: 3652122491601713025, guid: 8401b6874d85a084295cf5053aa6ed59, type: 3}
       propertyPath: levelSceneName
       value: MoinhoLVL
+      objectReference: {fileID: 0}
+    - target: {fileID: 3652122491601713025, guid: 8401b6874d85a084295cf5053aa6ed59, type: 3}
+      propertyPath: maxSpeedColor.a
+      value: 0.69803923
+      objectReference: {fileID: 0}
+    - target: {fileID: 3652122491601713025, guid: 8401b6874d85a084295cf5053aa6ed59, type: 3}
+      propertyPath: midSpeedColor.a
+      value: 0.69803923
       objectReference: {fileID: 0}
     - target: {fileID: 3652122491601713025, guid: 8401b6874d85a084295cf5053aa6ed59, type: 3}
       propertyPath: speedIncreaseRate
@@ -19177,6 +19335,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a638acf5a9a54574987deaf9860d9ecf, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::RisingWater
+--- !u!212 &1993025911 stripped
+SpriteRenderer:
+  m_CorrespondingSourceObject: {fileID: 630601896094737768, guid: 8401b6874d85a084295cf5053aa6ed59, type: 3}
+  m_PrefabInstance: {fileID: 1079686821}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &2068600836 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 7475838607159452633, guid: bfe15e762ac9b334a9fd74f51cc9e6fe, type: 3}
